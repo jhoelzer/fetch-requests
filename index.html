@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fetch Requests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <div class="question-block">
+        <div id="animals"></div>
+        <div id="answer">
+            <h4 class="answer">Answer: </h4>
+            <span id="animal-answer" class="answer" style="color: white; font-size: 20px;"></span>
+        </div>
+        <button type="button" class="button" onclick="showAnimalAnswer()">Show Answer</button>
+    </div>
+    <br>
+
+    <div class="question-block">
+        <div id="nature"></div>
+        <div id="answer2">
+            <h4 class="answer">Answer: </h4>
+            <span id="nature-answer" class="answer" style="color: white; font-size: 20px;"></span>
+        </div>
+        <button type="button" class="button" onclick="showNatureAnswer()">Show Answer</button>
+    </div>
+
+    <button type="button" class="button" onclick="replay()">Play Again</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
